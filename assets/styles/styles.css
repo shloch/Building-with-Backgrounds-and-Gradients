@@ -156,6 +156,7 @@ footer a:hover {
   position: relative;
 }
 .f-1st-line > ul > li > a:after {
+  top: -2px;
   right: -2px;
   color: #777;
   content: "|";
