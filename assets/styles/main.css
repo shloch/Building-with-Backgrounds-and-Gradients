@@ -2,7 +2,8 @@
 
 section.skii-buddies {
     width: 100%;
-    padding-top: 10%;
+    padding-top: 25%;
+    padding-bottom: 5%;
     color: aliceblue;
     background: url(../images/skii.jpg) 50% 90% no-repeat;
     font-weight: 100;
@@ -10,8 +11,15 @@ section.skii-buddies {
 }
 
 section.skii-buddies .middle-txt {
-    font-size: 2.0em;
+    font-size: 1.6em;
     letter-spacing: 0.1em;
+    line-height: 1.4em;
+}
+
+section.skii-buddies .lower-txt {
+    font-size: 1.45em;
+    letter-spacing: 0.1em;
+    line-height: 1.3em;
 }
 
 section.skii-buddies p,
@@ -22,4 +30,40 @@ section.skii-buddies h1 {
 
 section.skii-buddies h1 {
     font-size: 3.5em;
+}
+
+
+/******** 4 iphone pub section *********/
+
+section.iphone_pub {
+    width: 100%;
+    /*border: 1px solid greenyellow;*/
+    text-align: center;
+    padding: 0;
+    margin: 0
+}
+
+section.iphone_pub .iphones {
+    min-height: 199px;
+    display: inline-block;
+    width: 24.9%;
+    margin-left: -2px;
+    /*border: 1px solid blue;*/
+}
+
+section.iphone_pub .i5c {
+    background-image: url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg');
+}
+
+section.iphone_pub .i5s {
+    background: url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg');
+}
+
+section.iphone_pub .i5ss {
+    background: url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg');
+}
+
+section.iphone_pub .i5sss {
+    background: url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg');
+    padding-right: -1px;
 }
