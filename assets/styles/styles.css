@@ -14,11 +14,11 @@ nav > ul {
   overflow: hidden;
   border-radius: 3px;
   display: inline-block;
-  background-color: #555;
-  background-image: linear-gradient(#878787, #666 50%, #444 50%,#777);
 }
 .nav-item {
   float: left;
+  background-color: #555;
+  background-image: linear-gradient(#878787, #666 50%, #444 50%,#777);
   border-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D') 0 2 0 1;
 }
 .nav-item > a {
@@ -39,11 +39,11 @@ nav > ul {
   margin-top: 6px;
 }
 .nav-item .search {
-  margin: 3% 15px;
   position: relative;
   border-radius: 20px;
   display: inline-block;
   padding: 0 5px 3px 5px;
+  margin: 5px 15px 4px 15px;
   border: 1px solid #454545;
   background-image: linear-gradient(#999, #777 50%, #666 50%,#888);
 }
