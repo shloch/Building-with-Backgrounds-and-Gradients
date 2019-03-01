@@ -1,5 +1,5 @@
 body {
-  font: 13px/18px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font: 1.03vw/1vw -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 /* HEADER */
 header {
@@ -8,7 +8,7 @@ header {
   position: absolute;
 }
 nav {
-  margin: 20px 0;
+  margin: 3% 0;
   text-align: center;
 }
 nav > ul {
@@ -19,38 +19,37 @@ nav > ul {
 }
 .nav-item {
   float: left;
+  height: 2.7vw;
+  line-height: 2.7vw;
   background-color: #555;
+  border-right: 1px solid #888;
   background-image: linear-gradient(#878787, #666 50%, #444 50%,#777);
-  border-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D') 0 2 0 1;
 }
 .nav-item > a {
   float: left;
-  height: 34px;
-  line-height: 30px;
+  height: 100%;
   display: block;
-  padding: 0 30px;
-  border-left: 1px solid #999;
-  border-right: 1px solid #999;
+  padding: 0 3vw;
 }
 .nav-item a:hover {
   background-image: linear-gradient(to right, #5557, #2226 10% ,#2226 90%, #5557);
 }
 .nav-item.apple svg {
-  width: 20px;
-  height: 20px;
-  margin-top: 6px;
+  width: 2vw;
+  height: 2vw;
+  margin: auto;
 }
 .nav-item .search {
-  position: relative;
-  border-radius: 20px;
+  margin: 0 3vw;
+  padding: 0 .5vw;
+  line-height: 1.8vw;
+  border-radius: 2vw;
   display: inline-block;
-  padding: 0 5px 3px 5px;
-  margin: 5px 15px 4px 15px;
   border: 1px solid #454545;
   background-image: linear-gradient(#999, #777 50%, #666 50%,#888);
 }
 .nav-item .search > input {
-  width: 100px;
+  width: 7vw;
   border: none;
 }
 .nav-item .search > i {
@@ -61,25 +60,23 @@ nav > ul {
 /******* skii buddies section **********/
 
 section.skii-buddies {
-  width: 100%;
+  height: 500px;
   font-weight: 100;
   padding-top: 14%;
-  margin-bottom: 0;
   color: aliceblue;
-  padding-bottom: 21%;
-  background: url(../images/skii.jpg) 50% 115% no-repeat;
+  background: url(../images/skii.jpg) 50% 90% no-repeat;
 }
 
 section.skii-buddies .middle-txt {
-  font-size: 1.6em;
+  font-size: 1.8em;
+  line-height: 1.7em;
   letter-spacing: 0.1em;
-  line-height: 1.4em;
 }
 
 section.skii-buddies .lower-txt {
   font-size: 1.45em;
-  letter-spacing: 0.1em;
   line-height: 1.3em;
+  letter-spacing: 0.1em;
 }
 
 section.skii-buddies p,
@@ -95,44 +92,45 @@ section.skii-buddies h1 {
 
 /******** 4 iphone pub section *********/
 
-section.iphone_pub {
-  width: 100%;
-  text-align: center;
+.iphone-pub {
   padding: 0;
-  margin-top: -10%;
+  width: 100%;
+  height: 15vw;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
   background-color: white;
 }
 
-section.iphone_pub .iphones {
-  min-height: 199px;
-  display: inline-block;
-  width: 24.9%;
-  margin-left: -2px;
+.iphone-pub .iphones {
+  float:left;
+  width: 25%;
+  height: 100%;
   border: 1px solid white;
 }
 
-section.iphone_pub .i5c {
+.iphone-pub .i5c {
   background-image: url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg');
 }
 
-section.iphone_pub .i5s {
+.iphone-pub .i5s {
   background: url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg');
 }
 
-section.iphone_pub .i5ss {
+.iphone-pub .i5ss {
   background: url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg');
 }
 
-section.iphone_pub .i5sss {
+.iphone-pub .i5sss {
   background: url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg');
-  padding-right: -1px;
 }
 
 /* FOOTER */
 footer {
   color: #777;
-  padding: 20px 13%;
-  font: 10px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  margin-top: 1vw;
+  font-size: 0.8em;
+  padding: 0.5vw 8vw;
 }
 footer a {
   color: #08c;
@@ -143,7 +141,7 @@ footer a:hover {
 }
 .f-1st-line {
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-bottom: 0.5vw;
 }
 .f-1st-line > ul {
   float: right;
