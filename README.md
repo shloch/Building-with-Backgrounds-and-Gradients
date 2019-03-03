@@ -12,3 +12,4 @@ PROJECT: BUILDING WITH BACKGROUNDS AND GRADIENTS
 - Fabien RAKOTOMAMPIANDRA _https://github.com/FabienNeibaf_
 
 ## Live demo
+Have a taste of the result _https://raw.githack.com/shloch/Building-with-Backgrounds-and-Gradients/develop/index.html_
