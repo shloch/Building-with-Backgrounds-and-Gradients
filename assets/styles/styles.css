@@ -8,7 +8,7 @@ header {
   position: absolute;
 }
 nav {
-  margin: 3% 0;
+  margin: 20px 0;
   text-align: center;
 }
 nav > ul {
@@ -128,7 +128,7 @@ section.skii-buddies h1 {
 /* FOOTER */
 footer {
   color: #777;
-  margin-top: 1vw;
+  margin-top: 20px;
   font-size: 0.8em;
   padding: 0.5vw 8vw;
 }
@@ -141,7 +141,7 @@ footer a:hover {
 }
 .f-1st-line {
   overflow: hidden;
-  margin-bottom: 0.5vw;
+  margin-bottom: 10px;
 }
 .f-1st-line > ul {
   float: right;
@@ -150,14 +150,13 @@ footer a:hover {
   float: left;
 }
 .f-1st-line > ul > li > a {
-  padding: 0 7px;
+  padding: 0 1em;
   position: relative;
 }
 .f-1st-line > ul > li > a:after {
-  top: -2px;
-  right: -2px;
-  color: #777;
   content: "|";
+  right: -0.2em;
+  color: #777;
   position: absolute;
 }
 .f-1st-line > span {
