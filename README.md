@@ -1,13 +1,10 @@
 # Building-with-Backgrounds-and-Gradients
 
-Replica of www.apple.com
+www.apple.com
 
 HTML and CSS
 PROJECT: BUILDING WITH BACKGROUNDS AND GRADIENTS
 
-Project assignment from the ODIN PROJECT --> https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients
-
-project4 (by @microverseinc )
 
 ## Contributors
 
@@ -15,3 +12,4 @@ project4 (by @microverseinc )
 - Fabien RAKOTOMAMPIANDRA _https://github.com/FabienNeibaf_
 
 ## Live demo
+Have a taste of the result _https://raw.githack.com/shloch/Building-with-Backgrounds-and-Gradients/develop/index.html_
