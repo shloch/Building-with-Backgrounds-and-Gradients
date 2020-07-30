@@ -22,3 +22,7 @@ PROJECT: BUILDING WITH BACKGROUNDS AND GRADIENTS
 ## Live demo
 Have a taste of the result:
 _https://rawcdn.githack.com/shloch/Building-with-Backgrounds-and-Gradients/cabd72faf09a598440c9b7d275e71ee24ca427b9/index.html_
+
+## Acknowledgements
+- https://raw.githack.com/
+- https://apple.com
